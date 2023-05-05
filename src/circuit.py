@@ -12,7 +12,7 @@ from src.fields import ScalarField, VectorField
 
 class Circuit:
     """
-    A circuit is a collection of electrical components that are connected together with nodes. A circuit must closed.
+    A circuit is a collection of electrical components that are connected together with nodes. A circuit must be closed.
     This means that all nodes must have at least two connections. A circuit can have current sources and voltage
     sources. A circuit can be solved to find the potential at each node and the current flowing through each component
     with kirchoff's laws.
